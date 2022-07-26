@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Yaksha Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Yaksha BAT Suite(failed)">
+    <classes>
+      <class name="com.caiiht.fusion.selenium.yaksha.YakshaSkill">
+        <methods>
+          <include name="YCategoryCreate"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.caiiht.fusion.selenium.yaksha.YakshaSkill -->
+    </classes>
+  </test> <!-- Yaksha BAT Suite(failed) -->
+</suite> <!-- Failed suite [Yaksha Test Suite] -->

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Login succesfully- Home page displayed]]>
+    </line>
+    <line>
+      <![CDATA[×
+Question created successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-07-26T13:17:05 IST" name="Yaksha Test Suite" finished-at="2022-07-26T13:17:56 IST" duration-ms="51338">
+    <groups>
+    </groups>
+    <test started-at="2022-07-26T13:17:05 IST" name="Yaksha BAT Suite" finished-at="2022-07-26T13:17:56 IST" duration-ms="51338">
+      <class name="com.caiiht.fusion.selenium.controls.BaseSetup">
+        <test-method signature="launchBrowser()[pri:0, instance:com.caiiht.fusion.selenium.controls.BaseSetup@2cae1042]" started-at="2022-07-26T13:17:05 IST" name="launchBrowser" finished-at="2022-07-26T13:17:07 IST" duration-ms="2326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+      </class> <!-- com.caiiht.fusion.selenium.controls.BaseSetup -->
+      <class name="com.caiiht.fusion.selenium.yaksha.yakshalogin">
+        <test-method signature="YLogin()[pri:0, instance:com.caiiht.fusion.selenium.yaksha.yakshalogin@30bcf3c1]" started-at="2022-07-26T13:17:07 IST" name="YLogin" finished-at="2022-07-26T13:17:32 IST" duration-ms="25465" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login succesfully- Home page displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- YLogin -->
+      </class> <!-- com.caiiht.fusion.selenium.yaksha.yakshalogin -->
+      <class name="com.caiiht.fusion.selenium.yaksha.YakshaQuestionCreate">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.caiiht.fusion.selenium.yaksha.YakshaQuestionCreate@ed3068a]" started-at="2022-07-26T13:17:32 IST" name="setUp" finished-at="2022-07-26T13:17:32 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="YQuestioncreate()[pri:0, instance:com.caiiht.fusion.selenium.yaksha.YakshaQuestionCreate@ed3068a]" started-at="2022-07-26T13:17:32 IST" name="YQuestioncreate" finished-at="2022-07-26T13:17:56 IST" duration-ms="23509" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[×
+Question created successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- YQuestioncreate -->
+      </class> <!-- com.caiiht.fusion.selenium.yaksha.YakshaQuestionCreate -->
+    </test> <!-- Yaksha BAT Suite -->
+  </suite> <!-- Yaksha Test Suite -->
+</testng-results>

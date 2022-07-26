@@ -1,0 +1,2 @@
+Questiontype|Level|category|Skill|Subskill|Question|option1|option2|option3|option4|option5|option6|Correct values|Hint
+MultipleChoice|Beginner|AutomationTest|Maven1|Maven|Whats is Maven?|Option1|Option2|option3|option4|option5|option6|1,5|Maven description
